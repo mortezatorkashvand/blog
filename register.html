@@ -13,6 +13,12 @@
 
 <!------ Include the above in your HEAD tag ---------->
 
+<!--
+    you can substitue the span of reauth email for a input with the email and
+    include the remember me checkbox
+    -->
+
+    
 
     <div class="container">
 
@@ -24,17 +30,16 @@
             <p id="profile-name" class="profile-name-card"></p>
             <form class="form-signin">
                 <span id="reauth-email" class="reauth-email"></span>
-                <input type="email" id="inputEmail" class="form-control text-right" placeholder="آدرس ایمیل" required autofocus>
-                <input type="password" id="inputPassword" class="form-control text-right" placeholder="گذرواژه" required>
+                <input type="email" id="inputFirstname" class="form-control " placeholder="نام" required autofocus>
+                <input type="email" id="inputLastname" class="form-control " placeholder="نام خانوادگی" required autofocus>
+                <input type="email" id="inputUsername" class="form-control " placeholder="نام کاربری" required autofocus>
+                <input type="email" id="inputEmail" class="form-control " placeholder="آدرس ایمیل" required autofocus>
+                <input type="password" id="inputPassword" class="form-control " placeholder="گذرواژه" required>
+                <input type="password" id="inputPassword" class="form-control " placeholder="تکرار گذرواژه" required>
                 <div id="remember" class="checkbox">
-                    <label>
-                        <input type="checkbox" value="remember-me"> مرا به خاطر بسپار
-                    </label>
+                    
                 </div>
-                <button class="btn btn-lg btn-primary btn-block btn-signin" type="submit">ورود</button>
+                <button class="btn btn-lg btn-primary btn-block btn-signin" type="submit">نام نویسی</button>
             </form><!-- /form -->
-            <a href="#" class="forgot-password">
-                گذرواژه را فراموش کرده‌اید؟
-            </a>
         </div><!-- /card-container -->
     </div><!-- /container -->
